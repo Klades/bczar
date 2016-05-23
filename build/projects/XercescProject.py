@@ -38,7 +38,7 @@ class XercescProject (Project):
     def __init__ (self):
         Project.__init__ (self, 'XercesC')
 
-        self.__location__ = 'xerces-c-3.1.2'
+        self.__location__ = 'xerces-c-3.1.3'
         self.__dll_version__ = '3_1'
         self._basename_ = self.__location__
         
