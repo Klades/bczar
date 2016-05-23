@@ -49,7 +49,7 @@ class BoostProject (Project):
             url = 'https://github.com/boostorg/boost.git'
         else:
             url = 'git@github.com:boostorg/boost.git'
-        tag = 'boost-1.56.0'
+        tag = 'boost-1.61.0'
         abspath = path.abspath (path.join (ctx.prefix, self.__location__))
         Git.checkout (url, abspath, tag=tag)
 
