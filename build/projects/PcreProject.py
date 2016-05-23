@@ -56,7 +56,7 @@ class PcreProject (Project):
         if ctx.use_trunk:
             url = 'svn://vcs.exim.org/pcre/code/trunk'
         else:
-            url = 'svn://vcs.exim.org/pcre/code/tags/pcre-8.21'
+            url = 'svn://vcs.exim.org/pcre/code/tags/pcre-8.38'
             
         abspath = path.abspath (path.join (ctx.prefix, self.__location__))
         Subversion.checkout (url, abspath)
